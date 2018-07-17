@@ -1,0 +1,19 @@
+.sections-nav {
+  font-family: $sans-serif;
+  font-size: 12px;
+}
+
+.sections-nav-links li {
+  float: left;
+  padding: 10px;
+}
+
+.sections-nav-links li:hover {
+  background-color: $gray;
+}
+
+.sections-nav li:last-child:hover {
+  background-color: $gray;
+  text-decoration: underline;
+}
+
